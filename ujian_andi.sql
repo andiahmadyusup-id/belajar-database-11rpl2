@@ -12,7 +12,7 @@
     INSERT INTO tb_obat VALUES("K0010", "Paracetamol", "Obat Bebas", "Strips", 100, 3000, 4000);
 4. SELECT * FROM tb_obat;
 5. SELECT * FROM tb_obat WHERE jenis="Obat Terbatas";
-6. SELECT * FROM tb_obat WHERE stok>=50 ORDER BY stok DESC;
+6. SELECT * FROM tb_obat WHERE stok>50 ORDER BY stok DESC;
 7. SELECT * FROM tb_obat WHERE nama_obat LIKE "%Becombion%";
 8. SELECT count(jenis) AS stok_obat_bebas FROM tb_obat WHERE jenis="Obat Bebas";
 9. UPDATE tb_obat SET stok=10 WHERE nama_obat="CTM";
